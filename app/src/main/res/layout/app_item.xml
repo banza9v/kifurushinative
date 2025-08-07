@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginEnd="@dimen/_10sdp"
+    app:cardCornerRadius="@dimen/_15sdp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardBackground"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/appIcon"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:layout_weight="0.2"
+            android:src="@drawable/tcra" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textAppearance="@style/SmallTextAppearance"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:textColor="@color/primaryText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/downloads"
+                            android:textAppearance="@style/ExtraSmallTextAppearance"
+                            android:textColor="@color/secondaryText"
+                            android:layout_marginEnd="@dimen/_3sdp"/>
+
+                        <TextView
+                            android:id="@+id/downloads"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/total"
+                            android:textAllCaps="true"
+                            android:textAppearance="@style/SmallTextAppearanceBold"
+                            android:textColor="@color/orange"
+                            android:layout_marginStart="@dimen/_3sdp"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/uploads"
+                            android:layout_marginEnd="@dimen/_3sdp"
+                            android:textAppearance="@style/ExtraSmallTextAppearance"
+                            android:textColor="@color/secondaryText" />
+
+                        <TextView
+                            android:id="@+id/uploads"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/total"
+                            android:textAllCaps="true"
+                            android:layout_marginStart="@dimen/_3sdp"
+                            android:textAppearance="@style/SmallTextAppearanceBold"
+                            android:textColor="@color/red" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.skydoves.progressview.ProgressView
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@id/totalView"
+                    android:id="@+id/progressView"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    app:progressView_autoAnimate="true"
+                    app:progressView_colorBackground="@color/cardBackground"
+                    app:progressView_colorProgress="@color/skyBlue"
+                    app:progressView_borderColor="@color/progress_border_color"
+                    app:progressView_borderWidth="0.25dp"
+                    app:progressView_labelColorInner="@color/white"
+                    app:progressView_labelColorOuter="@color/primaryText"
+                    app:progressView_labelSize="8sp"
+                    app:progressView_labelSpace="10dp"
+                    app:progressView_labelTypeface="normal"
+                    app:progressView_labelConstraints="align_progress"
+                    app:progressView_max="100"
+                    app:progressView_min="0"
+                    app:progressView_padding="1dp"
+                    app:progressView_progressFromPrevious="true"
+                    app:progressView_radius="8dp" />
+
+                <LinearLayout
+                    android:id="@+id/totalView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/total"
+                        android:layout_gravity="center"
+                        android:textAppearance="@style/ExtraSmallTextAppearance"
+                        android:textColor="@color/secondaryText" />
+
+                    <TextView
+                        android:id="@+id/displayTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/green"
+                        android:textAppearance="@style/SmallTextAppearanceBold" />
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#0E2779</color>
+    <color name="primaryDark">#0E2779</color>
+    <color name="Secondary">#19ACFA</color>
+    <color name="colorAccent">#19ACFA</color>
+    <color name="colorAccentDark">#0387CD</color>
+    <color name="background">#EFEFEF</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tab_selected_text_color">#FFFFFFFF</color>
+    <color name="tab_unselected_text_color">#A9E0E4FD</color>
+    <color name="orange">#FF9800</color>
+    <color name="blue">#536DFE</color>
+    <color name="black">#000000</color>
+    <color name="primaryText">#151515</color>
+    <color name="secondaryText">#D2818181</color>
+    <color name="red">#F44336</color>
+    <color name="green">#009E07</color>
+    <color name="grey">#A9BCBCBC</color>
+    <color name="amber">#FFC107</color>
+    <color name="selected_bottom_nav_item_color">#131313</color>
+    <color name="unselected_bottom_nav_item_color">#787878</color>
+    <color name="skyBlue">#03A9F4</color>
+    <color name="progress_border_color">#DDCACACA</color>
+
+</resources>

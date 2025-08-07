@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_cellular_range.xml" value="0.2935185185185185" />
+        <entry key="app/src/main/res/layout/activity_cellular_weekly.xml" value="0.2935185185185185" />
+        <entry key="app/src/main/res/layout/activity_daily_cellular.xml" value="0.2935185185185185" />
+        <entry key="app/src/main/res/layout/activity_daily_wifi.xml" value="0.2935185185185185" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.24444444444444444" />
+        <entry key="app/src/main/res/layout/activity_wifi.xml" value="0.2935185185185185" />
+        <entry key="app/src/main/res/layout/activity_wifi_range.xml" value="0.2935185185185185" />
+        <entry key="app/src/main/res/layout/dialog_layout.xml" value="0.2935185185185185" />
+        <entry key="app/src/main/res/layout/floating_threshold_item.xml" value="0.2935185185185185" />
+        <entry key="app/src/main/res/layout/fragment_cellur_fragement.xml" value="0.24444444444444444" />
+        <entry key="app/src/main/res/layout/fragment_threshold.xml" value="0.2935185185185185" />
+        <entry key="app/src/main/res/layout/fragment_wifi.xml" value="0.24444444444444444" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.35625" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="Cellular"
+    android:icon="@drawable/ic_baseline_signal_cellular_4_bar_24"
+    android:id="@+id/cellur"
+    />
+
+    <item
+        android:title="Wifi"
+        android:icon="@drawable/ic_baseline_wifi_24"
+        android:id="@+id/wifi"
+        />
+
+    <item
+        android:title="Extra"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:id="@+id/extra"
+        />
+</menu>

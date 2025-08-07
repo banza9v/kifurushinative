@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="?attr/bottomSheetStyle"
+    android:id="@+id/recordBottomSheet"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/SmallTextAppearanceBold"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/select_day"
+            android:textColor="@color/secondaryText"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:drawableStartCompat="@drawable/ic_baseline_calendar_today_24"
+            android:drawablePadding="@dimen/_10sdp"
+            android:gravity="center_vertical"
+            app:drawableTint="@color/secondaryText" />
+
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_15sdp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:gravity="center_vertical"
+            android:text="@string/monday"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textAppearance="@style/SmallTextAppearance"
+            android:id="@+id/monday"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:gravity="center_vertical"
+            android:text="@string/tuesday"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textAppearance="@style/SmallTextAppearance"
+            android:id="@+id/tuesday"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:gravity="center_vertical"
+            android:text="@string/wednesday"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textAppearance="@style/SmallTextAppearance"
+            android:id="@+id/wednesday"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:gravity="center_vertical"
+            android:text="@string/thursday"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textAppearance="@style/SmallTextAppearance"
+            android:id="@+id/thursday"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:gravity="center_vertical"
+            android:text="@string/friday"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textAppearance="@style/SmallTextAppearance"
+            android:id="@+id/friday"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:gravity="center_vertical"
+            android:text="@string/saturday"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textAppearance="@style/SmallTextAppearance"
+            android:id="@+id/saturday"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:gravity="center_vertical"
+            android:text="@string/sunday"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textAppearance="@style/SmallTextAppearance"
+            android:id="@+id/sunday"/>
+
+
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

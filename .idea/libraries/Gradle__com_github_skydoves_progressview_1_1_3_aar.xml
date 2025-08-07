@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.skydoves:progressview:1.1.3@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/51b2dd9b2c1192fc3a69178976de47eb/transformed/jetified-progressview-1.1.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/51b2dd9b2c1192fc3a69178976de47eb/transformed/jetified-progressview-1.1.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/8.9/transforms/51b2dd9b2c1192fc3a69178976de47eb/transformed/jetified-progressview-1.1.3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.skydoves/progressview/1.1.3/ce59bea5e06cc7b0c09ac7527758bf0812926f8e/progressview-1.1.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.skydoves/progressview/1.1.3/4c739e7a23ec4279edf3e0b18b68ab1a880f8365/progressview-1.1.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

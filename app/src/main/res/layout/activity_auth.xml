@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/masai"
+    android:layout_height="match_parent"
+    tools:context="ridc.sduma.kifurushi.activities.AuthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="#BA0D0F13">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:src="@drawable/updated_logo"
+            android:layout_height="150dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="@string/kifurushi_app"
+            android:textAllCaps="true"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+
+            android:background="@drawable/purple_btn"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:id="@+id/btn_login"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+
+            android:background="@drawable/purple_btn"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/create_account"
+            android:textColor="@color/white"
+            android:id="@+id/btn_sign"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/poppins"
+            android:background="@drawable/btn_bg_outline"
+            android:text="@string/continue_without_account"
+            android:textColor="@color/blue"
+            android:id="@+id/btn_skip"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

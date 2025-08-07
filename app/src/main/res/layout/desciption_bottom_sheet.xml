@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/_120sdp"
+    style="?attr/bottomSheetStyle"
+    android:id="@+id/recordBottomSheet"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/SmallTextAppearanceBold"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/enter_your_message_bellow"
+            android:textColor="@color/secondaryText"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center_vertical"
+            app:drawableTint="@color/secondaryText" />
+
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_15sdp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_tex_bg"
+                android:minHeight="@dimen/_38sdp"
+                android:maxHeight="@dimen/_180sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:hint="@string/enter_description"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:id="@+id/descriptionEt"
+                android:textAppearance="@style/SmallTextAppearance"
+                tools:ignore="Autofill,TextFields"
+                android:layout_weight="0.85"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_38sdp"
+                android:src="@drawable/ic_baseline_send_24"
+                android:layout_gravity="bottom"
+                app:tint="@color/white"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_weight="0.15"
+                android:background="@drawable/send_bg"
+                android:padding="8dp"
+                android:id="@+id/sendComplaint"/>
+
+        </LinearLayout>
+
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>

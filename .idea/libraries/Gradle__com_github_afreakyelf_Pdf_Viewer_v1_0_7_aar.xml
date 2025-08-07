@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.afreakyelf:Pdf-Viewer:v1.0.7@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/2f38569d8f2afb96fdcc62eab42728b3/transformed/jetified-Pdf-Viewer-v1.0.7/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/2f38569d8f2afb96fdcc62eab42728b3/transformed/jetified-Pdf-Viewer-v1.0.7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/8.9/transforms/2f38569d8f2afb96fdcc62eab42728b3/transformed/jetified-Pdf-Viewer-v1.0.7/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.afreakyelf/Pdf-Viewer/v1.0.7/ed2a7d9400a79a07138c46695c17cf59fbebba20/Pdf-Viewer-v1.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

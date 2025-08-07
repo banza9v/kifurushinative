@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Kifurushi.iml" filepath="$PROJECT_DIR$/.idea/modules/Kifurushi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Kifurushi.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Kifurushi.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Kifurushi.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Kifurushi.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Kifurushi.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Kifurushi.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Kifurushi.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Kifurushi.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

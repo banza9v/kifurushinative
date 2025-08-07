@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:layout_marginEnd="@dimen/_10sdp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/MediumTextAppearanceBold"
+        android:text="@string/wi_fi_threshold"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:textColor="@color/primaryText"
+        android:id="@+id/customThresholdTitle"/>
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0.5dp"-->
+<!--        android:background="@color/grey"-->
+<!--        android:layout_margin="@dimen/_5sdp"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/SmallTextAppearance"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/cellular_threshold_dialog_message"
+        android:gravity="center"
+        android:textColor="@color/secondaryText"
+        android:id="@+id/customThresholdMessage"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_37sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@color/cardBackground"
+        android:id="@+id/thresholdInput"
+        android:textAppearance="@style/SmallTextAppearance"
+        android:letterSpacing="0.1"
+        android:hint="@string/enter_new_threshold"
+        android:maxLines="1"
+        android:textColor="@color/primaryText"
+        android:textColorHint="@color/primaryText"
+        android:gravity="center"
+        android:inputType="numberDecimal"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/btn_bg_outline"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:text="@string/cancel"
+            android:textColor="@color/black"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:selectableItemBackground"
+            android:textAppearance="@style/SmallTextAppearance"
+            android:id="@+id/cancelBtn"
+            android:textAllCaps="true"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/purple_btn"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:text="@string/confirm"
+            android:textColor="@color/white"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:selectableItemBackground"
+            android:textAppearance="@style/SmallTextAppearance"
+            android:id="@+id/confirmBtn"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>

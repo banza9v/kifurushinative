@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LargeTextAppearanceBold" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/baloo_bhaijaan</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="LargeTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="MediumTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="MediumTextAppearanceBold" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SmallTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="SmallTextAppearanceBold" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ExtraSmallTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="CustomTabStyle" parent="Widget.Design.TabLayout">
+        <item name="android:textAppearance">@style/SmallTextAppearance</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabTextColor">@color/tab_unselected_text_color</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="CustomAlertDialogStyle" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/primaryText</item>
+        <item name="android:titleTextAppearance">@style/MediumTextAppearance</item>
+        <item name="android:background">@color/cardBackground</item>
+        <item name="android:colorAccent">@color/skyBlue</item>
+        <item name="shapeAppearanceOverlay">@style/DialogCorners</item>
+    </style>
+
+    <style name="DialogCorners">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_30sdp</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorAccent</item>
+    </style>
+
+</resources>
